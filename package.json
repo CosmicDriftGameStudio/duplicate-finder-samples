@@ -1,0 +1,17 @@
+{
+  "name": "duplicate-finder-samples",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "ast": "bun ast-duplicates.ts samples",
+    "embed": "bun embedding-duplicates.ts samples",
+    "combine": "bun combine.ts samples"
+  },
+  "dependencies": {
+    "typescript": "^5.9.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.4"
+  }
+}
